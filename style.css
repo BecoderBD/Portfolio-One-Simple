@@ -1,0 +1,528 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* ---------------------------------------- */
+/* ----------------------Header css-------------- */
+/* ----------------------------------------- */
+
+header{
+    height: 100px;
+    width: 100%;
+    margin: auto;
+    background-color: #31333b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* -----nav section--- */
+
+.headNav_sec{
+    display: flex;
+    align-items: center;
+}
+.navOne{
+    height: 35px;
+    width: 120px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #e9e9e9;
+    border-radius: 5px;
+}
+
+.navHover:hover{
+    background-color: #55e0e5;
+    color: #303138;
+    transition: .5s;
+}
+
+/* ----------head Search----- */
+
+.headSearch_sec{
+    height: 35px;
+    width: 200px;
+    background-color: #5f5f61;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+input{
+    height: 35px;
+    width: 145px;
+    background-color: #5f5f61;
+    color: #e9e9e9;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    padding-left: 5px;
+    font-size: 1rem;
+}
+
+::placeholder{
+    font-size: 1rem;
+    color: #bdbdbd;
+    font-weight: 600;
+}
+
+.searchClick{
+    height: 30px;
+    width: 50px;
+    background-color: #55e0e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+/* ----------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+/* -----------------------Hero Section------------------------------------ */
+/* ----------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+
+
+.heroSection{
+    height: 500px;
+    width: 100%;
+    background-color: #2b2c32;
+    color: #e9e9e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroLeft{
+    height: 100%;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.im{
+    font-size: 2.5rem;
+    display: flex;
+    cursor:default;
+}
+.myName{
+    font-size: 6rem;
+    color: #55E0E5;
+    cursor:default;
+}
+.proffession{
+    font-size: 1.5rem;
+    text-align: center;
+    cursor:default;
+}
+
+/* ------hero btn----------- */
+
+.heroBtn_sec{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.heroBtn{
+    height: 60px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: #55E0E5;
+    color: #2b2c32;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.herobtnHover:hover{
+    background-color: #2b2c32;
+    color: #e9e9e9;
+    border: 1px solid #e9e9e9;
+    transition: .5s;
+}
+
+/* -----hero social link----------- */
+.heroSocial_sec{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroSocial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 2rem;
+}
+.fb{
+    color: #1877F2;
+    cursor: pointer;
+}
+.ins{
+    color: #F56040;
+    cursor: pointer;
+}
+.twr{
+    color: #1DA1F2;
+    cursor: pointer;
+}
+.li{
+    color: #0077B5 ;
+    cursor: pointer;
+}
+.wp{
+    color: 	#25D366;
+    cursor: pointer;
+}
+
+.socialHover:hover{
+    color: #e9e9e9;
+    font-size: 2.1rem;
+    transition: .3s;
+}
+
+
+/* --------------hero right img------ */
+
+.heroRight{
+    height: 100%;
+    width: 30%;
+}
+
+
+
+/* ----------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+/* ------------------------------About and My Skill----------------------- */
+/* ----------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+
+
+.aboutSkill_sec{
+    height: 770px;
+    width: 100%;
+    background-color: #31333b;
+    color: #e9e9e9;
+}
+
+.aboutSection{
+    height: 600px;
+    width: 78%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.aboutHeading{
+    font-size: 3rem;
+    text-decoration: overline;
+    cursor: default;
+}
+.aboutPara{
+    padding-top: 40px;
+    cursor: default;
+}
+
+
+
+/* -----------skill logo icon------------------ */
+
+
+.myskill{
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-size: 5rem
+}
+
+.htmlLogo{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #DD4A26 ;
+    color: #DD4A26;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cssLogo{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #2561AA ;
+    color: #2561AA;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btrapLogo{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #7B10F2 ;
+    color: #7B10F2;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.jsLogo{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #EFD81D ;
+    color: #EFD81D;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.phpLogo{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #7476AD ;
+    color: #7476AD;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.laraLogo{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #E8503E ;
+    color: #E8503E;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.reactLogo{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #5CCBEA ;
+    color: #5CCBEA;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+
+.njsLogo{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #669A60;
+    color: #669A60;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+
+.pythnLogo{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #F7CD38;
+    color: #F7CD38;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+
+.databsLogo{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #00718B;
+    color: #00718B;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+/* ------------skill logo Hover----- */
+
+.skillLogoHover:hover{
+    background-color: #212225;
+    border: 1px solid #e9e9e9;
+    transition: .5s;
+}
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+/* ------------------------------My project----------------------- */
+/* ----------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+
+.projectSection{
+    height: 720px;
+    width: 100%;
+    background-color: #1d1d27;
+    color: #e9e9e9;
+}
+.recentProject{
+    height: 100%;
+    width: 78%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.project img{
+    height: 180px;
+    cursor: pointer;
+}
+
+.projectList{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+}
+.project p{
+    cursor: pointer;
+}
+
+/* ------------view more button----------- */
+
+.vwMore{
+    height: 60px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vwMoreBtn{
+    height: 100%;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #55e0e5;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #2b2c32;
+    cursor: pointer;
+}
+
+/* --------hover-------- */
+.vwmoreHover:hover{
+    background-color: transparent;
+    border: 1px solid #e9e9e9;
+    color: #e9e9e9;
+    transition: .5s;
+}
+
+
+
+/* ------------------------------------------- */
+/* ------------------------------------------- */
+/* ---------------footer section----------------- */
+/* ------------------------------------------- */
+/* ------------------------------------------- */
+
+
+footer{
+    height: 250px;
+    width: 100%;
+    background-color: #090910;
+    color: #e9e9e9;
+}
+.quickContact{
+    height: 100%;
+    width: 78%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.quickLink{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.mail,
+.phone,
+.location{
+    height: 40px;
+    width: 300px;
+    background-color: #55E0E5;
+    color: #090910;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* -------hover-------------- */
+.quicklinkHover:hover{
+    background-color: transparent;
+    border: 1px solid #e9e9e9;
+    color: #e9e9e9;
+    transition: .5s;
+}
+
